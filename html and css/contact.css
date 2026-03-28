@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* HERO */
+.hero {
+  background: url("images\img1.jpg") no-repeat center;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#333;
+  font-size: 30px;
+  
+}
+
+/* CONTACT SECTION */
+.contact-container {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+}
+
+.form-section, .info-section {
+  flex: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* INFO IMAGE */
+.info-section img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}

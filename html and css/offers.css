@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* HERO */
+.hero {
+  background: url("https://images.unsplash.com/photo-1607082349566-187342175e2f")
+              center/cover no-repeat;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 32px;
+}
+
+/* OFFERS */
+.offers-container {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.offer-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.offer-card:hover {
+  transform: scale(1.05);
+}
+
+.offer-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

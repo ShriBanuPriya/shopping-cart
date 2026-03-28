@@ -1,0 +1,21 @@
+/* Navbar */
+    nav{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:15px 40px;
+      background:#8b5e3c;
+      color:white;
+    }
+    nav ul{display:flex;list-style:none;}
+    nav ul li{margin:0 15px;}
+    nav ul li a{color:white;text-decoration:none;}
+    header{
+      height:400px;
+      background:url('https://plus.unsplash.com/premium_photo-1701984402141-03708b240242?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&ixlib=rb-4.1.0&q=60&w=3000') no-repeat center/cover;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      padding-left:50px;
+      color:white;
+    }

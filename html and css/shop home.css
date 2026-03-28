@@ -6,63 +6,118 @@ body {
 h2, p {
   margin: 10px;
 }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #333333;
-  display: flex;
-}
-
-ul li a {
-  display: block;
+.shop-btn {
+  padding: 12px 25px;
+  background: brown;
   color: white;
-  padding: 14px 16px;
-  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
 }
 
-ul li a:hover {
-  background-color: #111111;
-}
-.container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: dodgerblue;
-  padding: 10px;
-}
-.product-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-}
-.container div {
-  background-color: #f1f1f1;
-  border: 1px solid black;
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
+.shop-btn:hover {
+  background: #8b4513;
 }
 
-.card {
+    header h1
+    {font-size:40px;
+    }
+    header p
+    {margin:10px 0;max-width:500px;}
    
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: 0.3s;
-}
+
+
+
+.pro-title{
+  text-align: center;
+}   
+  
 
 .card:hover {
     transform: scale(1.05);
 }
-
+*/
 /* IMAGE */
-.card img {
-    
-    border-radius: 10px;
+
+      .products{
+      padding:40px;
+      text-align:center;
+    }
+    .product-grid{
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+    .card{
+      width:200px;
+      border:1px solid #ccc;
+      border-radius:10px;
+      overflow:hidden;
+    }
+   
+     .card img {
+  width: 100%;
+  height: 200px;       /* same height for all */
+ }
+    .card h3{margin:10px 0;}
+    .card p{color:green;}
+
+    /* Footer */
+   .footer {
+ background:#8b5e3c;
+      color:white;
+  padding: 40px 20px 10px;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-box {
+  width: 250px;
+  margin: 10px;
+}
+
+.footer-box h2, .footer-box h3 {
+  margin-bottom: 10px;
+}
+
+.footer-box p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-box ul {
+  list-style: none;
+}
+
+.footer-box ul li {
+  margin: 8px 0;
+}
+
+.footer-box ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.footer-box ul li a:hover {
+  color: #1abc9c;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #555;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+
 
 /* BUTTON */
 button {
@@ -78,3 +133,114 @@ button {
 button:hover {
     background: #0056b3;
 }
+.footer {
+    background: #222;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.subscribe-box {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subscribe-box input {
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+}
+
+.subscribe-box button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff6f00;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-box button:hover {
+    background: #e65c00;
+}
+
+#message {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.contact-container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* INPUTS */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* TEXTAREA */
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* BUTTON */
+contact-button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+contact-button:hover {
+    background: #0056b3;
+}
+
+/* STATUS */
+#status {
+    margin-top: 10px;
+}
+
+/* cart page*/
+
+
+#cart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: brown;
+  color: white;
+  border: none;
+  cursor: pointer;
+} 
