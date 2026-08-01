@@ -58,10 +58,12 @@ h2, p {
       overflow:hidden;
     }
    
-     .card img {
+    .product img {
   width: 100%;
-  height: 200px;       /* same height for all */
- }
+  height: 200px;        /* same height for all images */
+  object-fit: cover;    /* crop image nicely */
+  border-radius: 10px;
+}
     .card h3{margin:10px 0;}
     .card p{color:green;}
 
